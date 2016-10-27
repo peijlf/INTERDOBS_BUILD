@@ -1,0 +1,19 @@
+PROCEDURE "INTERDOBS_BUILD-1.HANA_DB::test_procedure" (IN INP_CHAR VARCHAR(1), OUT OUT_ACG VARCHAR(2) )
+	LANGUAGE SQLSCRIPT
+	SQL SECURITY INVOKER 
+ AS
+BEGIN
+   /*************************************
+       Write your procedure logic 
+   *************************************/
+   
+   IF INP_CHAR = 'A'
+THEN 
+  OUT_ACG := '11';
+
+ELSE
+  OUT_ACG := '12';
+END IF;
+END
+
+

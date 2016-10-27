@@ -1,0 +1,16 @@
+_schema-version: '2.0'
+ID: INTERDOBS_BUILD-1
+version: 0.0.1
+
+modules:
+ - name: HANA_DB
+   type: hdb
+   path: HANA_DB
+   requires:
+    - name: hdi-container
+
+resources:
+ - name: hdi-container
+   properties:
+      hdi-container-name: ${service-name}
+   type: com.sap.xs.hdi-container

@@ -1,0 +1,1 @@
+{"type":"sap.hdb","builders":{"default":"hdi-builder","configs":{}},"runners":{"configs":{}},"attributes":{"mta_module_parent":["/INTERDOBS_BUILD-1"],"sap.watt.common.setting":["{\"generation\":[{\"templateId\":\"hanatemplates.hanadbproject\",\"templateVersion\":\"1.0.0\",\"dateTimeStamp\":\"Thu, 27 Oct 2016 11:29:30 GMT\"}]}"]},"mixinTypes":["mtamodule"]}

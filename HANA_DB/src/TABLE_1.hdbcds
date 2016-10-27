@@ -1,0 +1,7 @@
+namespace "INTERDOBS_BUILD-1".HANA_DB;
+
+entity TABLE_1{
+ elem_1 : String(12);
+elem_2 : String(12);
+
+};
